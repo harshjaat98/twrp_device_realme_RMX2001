@@ -134,10 +134,11 @@ TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone4/temp
 # Debug flags
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+TW_PREPARE_DATA_MEDIA_EARLY := true
 
 # SHRP-specific lines
 SHRP_PATH := device/realme/RMX2151
-SHRP_MAINTAINER := EvilAnsh
+SHRP_MAINTAINER := BotBoy
 SHRP_DEVICE_CODE := RMX2151
 SHRP_REC_TYPE := Treble
 SHRP_DEVICE_TYPE := A_only
